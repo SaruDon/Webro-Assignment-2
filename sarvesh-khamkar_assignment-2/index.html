@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Day 1</title>
+  </head>
+
+  <body>
+    <nav class="heading">
+      <h1>Add Two Numbers</h1>
+      <br />
+      <p>
+        Developed with 💙 by
+        <a href="https://techanalogy.org" id="foot">Tech Analogy</a>
+      </p>
+      <br />
+      <div class="a">
+        <a href="#">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">Multiplication Cal</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">Divison calculator</a>
+      </div>
+    </nav>
+    <form onsubmit="add()" class="form">
+      <h2>calculator</h2>
+      <br /><br />
+      <h3>
+        Enter the first number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" id="a" placeholder="first number" />
+      </h3>
+      <br /><br />
+      <h3>
+        Enter the second number
+        <input type="number" id="b" placeholder="second number" />
+      </h3>
+      <div class="b">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <p class="e" style="display: none" id="ans">Sum : <input id="answer" /></p>
+    <script src="./script.js"></script>
+  </body>
+</html>
